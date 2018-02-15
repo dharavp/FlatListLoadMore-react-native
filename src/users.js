@@ -8,9 +8,6 @@ import { Spinner } from './Component/Common';
 class users extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      refreshing: false
-    };
     this.page = 1;
   }
 
